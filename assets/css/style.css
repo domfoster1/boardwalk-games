@@ -46,6 +46,7 @@ h2 {
     margin-bottom: 2rem;
 }
 
+
 /*Buttons*/
 
 .custom-buttons-filled {
@@ -71,9 +72,6 @@ h2 {
     color: #ffffff;
 }
 
-#student-discount-button {
-    border-radius: 0;
-}
 
 /*Navbar CSS*/
 
@@ -104,6 +102,16 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/*Events*/
+
+#student-discount {
+    border-radius: 0;
+    background-color: var(--highlight-color);
+    color: white;
+    border: none;
+}
+
+
 /*Game library cards*/
 
 
@@ -111,6 +119,10 @@ h2 {
 #fav-games .card {
     border: none;
 }
+
+/*Game library form*/
+
+
 
 /*Footer and contact section*/
 
@@ -157,6 +169,10 @@ h2 {
 @media screen and (min-width:768px) {
     #services .card-body {
         min-height: 191px;
+    }
+
+    #student-discount {
+        text-align: center
     }
 
 }
