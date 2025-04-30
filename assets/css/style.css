@@ -46,19 +46,6 @@ h2 {
     margin-bottom: 2rem;
 }
 
-/* grid visualisation CSS for testing 
-
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
-
 /*Buttons*/
 
 .custom-buttons-filled {
@@ -81,7 +68,11 @@ h2 {
 
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
-    color: white;
+    color: #ffffff;
+}
+
+#student-discount-button {
+    border-radius: 0;
 }
 
 /*Navbar CSS*/
